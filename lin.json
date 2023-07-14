@@ -1,0 +1,3988 @@
+{
+    "header": "lin_description_file",
+    "protocol_version": "2.1",
+    "language_version": "2.1",
+    "speed": 19200,
+    "channel_name": "DB",
+    "nodes": {
+        "master": {
+            "name": "CSM",
+            "timebase": 0.005,
+            "jitter": 0.0001,
+            "max_header_length": null,
+            "response_tolerance": null
+        },
+        "slaves": [
+            "Slave1",
+            "Slave2",
+            "Slave3",
+            "Slave4",
+            "Slave5",
+            "Slave6",
+            "Slave7",
+            "Slave8",
+            "Slave9",
+            "Slave10",
+            "Slave11",
+            "Slave12",
+            "Slave13",
+            "Slave14",
+            "Slave15",
+            "Slave16"
+        ]
+    },
+    "signals": [
+        {
+            "name": "ElmntTypeReq",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "SwtchStatsReq",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave1",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave1",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave1",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave1",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave1",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave1",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave1",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave2",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave2",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave2",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave2",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave2",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave2",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave2",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave3",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave3",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave3",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave3",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave3",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave3",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave3",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave4",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave4",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave4",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave4",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave4",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave4",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave4",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave5",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave5",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave5",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave5",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave5",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave5",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave5",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave6",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave6",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave6",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave6",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave6",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave6",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave6",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave7",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave7",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave7",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave7",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave7",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave7",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave7",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave8",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave8",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave8",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave8",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave8",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave8",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave8",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave9",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave9",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave9",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave9",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave9",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave9",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave9",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave10",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave10",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave10",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave10",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave10",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave10",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave10",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave11",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave11",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave11",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave11",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave11",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave11",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave11",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave12",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave12",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave12",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave12",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave12",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave12",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave12",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave13",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave13",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave13",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave13",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave13",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave13",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave13",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave14",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave14",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave14",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave14",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave14",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave14",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave14",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave15",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave15",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave15",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave15",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave15",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave15",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave15",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSlave16",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwtchStatRspSlave16",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ActiveOnKl15Slave16",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteTopRspSlave16",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "BkliteBotRspSlave16",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SwitchErrRspSlave16",
+            "width": 4,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "Comm_ErrRspSlave16",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "LedControlSlave_id",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "Func_LED_Ctrl",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "Backlight_LED1_ctrl",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "Backlight_LED2_ctrl",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "PWM_Func_LED",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "PWM_Backlight_LED1",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "PWM_Backlight_LED2",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "Led_Control_Reserved",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "KL15_flag",
+            "width": 1,
+            "init_value": 0,
+            "publisher": "CSM",
+            "subscribers": [
+                "Slave1",
+                "Slave2",
+                "Slave3",
+                "Slave4",
+                "Slave5",
+                "Slave6",
+                "Slave7",
+                "Slave8",
+                "Slave9",
+                "Slave10",
+                "Slave11",
+                "Slave12",
+                "Slave13",
+                "Slave14",
+                "Slave15",
+                "Slave16"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave1",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave2",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave3",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave4",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave5",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave6",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave7",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave8",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave9",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave10",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave11",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave12",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave13",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave14",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave15",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "SerialNumberSlave16",
+            "width": 24,
+            "init_value": [
+                0,
+                0,
+                0
+            ],
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave1",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave1",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave2",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave2",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave3",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave3",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave4",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave4",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave5",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave5",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave6",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave6",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave7",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave7",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave8",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave8",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave9",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave9",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave10",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave10",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave11",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave11",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave12",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave12",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave13",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave13",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave14",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave14",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave15",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave15",
+            "subscribers": [
+                "CSM"
+            ]
+        },
+        {
+            "name": "ElmntIdRspSerialSlave16",
+            "width": 8,
+            "init_value": 0,
+            "publisher": "Slave16",
+            "subscribers": [
+                "CSM"
+            ]
+        }
+    ],
+    "diagnostic_signals": [
+        {
+            "name": "MasterReqB0",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "MasterReqB1",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "MasterReqB2",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "MasterReqB3",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "MasterReqB4",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "MasterReqB5",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "MasterReqB6",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "MasterReqB7",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB0",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB1",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB2",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB3",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB4",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB5",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB6",
+            "width": 8,
+            "init_value": 0
+        },
+        {
+            "name": "SlaveRespB7",
+            "width": 8,
+            "init_value": 0
+        }
+    ],
+    "frames": [
+        {
+            "name": "Master_Type_Frm",
+            "frame_id": 0,
+            "publisher": "CSM",
+            "length": 1,
+            "signals": [
+                {
+                    "signal": "ElmntTypeReq",
+                    "offset": 0
+                },
+                {
+                    "signal": "SwtchStatsReq",
+                    "offset": 4
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm1",
+            "frame_id": 1,
+            "publisher": "Slave1",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave1",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave1",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave1",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave1",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave1",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave1",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave1",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm2",
+            "frame_id": 2,
+            "publisher": "Slave2",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave2",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave2",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave2",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave2",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave2",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave2",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave2",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm3",
+            "frame_id": 3,
+            "publisher": "Slave3",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave3",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave3",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave3",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave3",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave3",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave3",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave3",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm4",
+            "frame_id": 4,
+            "publisher": "Slave4",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave4",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave4",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave4",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave4",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave4",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave4",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave4",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm5",
+            "frame_id": 5,
+            "publisher": "Slave5",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave5",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave5",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave5",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave5",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave5",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave5",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave5",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm6",
+            "frame_id": 6,
+            "publisher": "Slave6",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave6",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave6",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave6",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave6",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave6",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave6",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave6",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm7",
+            "frame_id": 7,
+            "publisher": "Slave7",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave7",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave7",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave7",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave7",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave7",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave7",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave7",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm8",
+            "frame_id": 8,
+            "publisher": "Slave8",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave8",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave8",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave8",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave8",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave8",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave8",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave8",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm9",
+            "frame_id": 9,
+            "publisher": "Slave9",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave9",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave9",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave9",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave9",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave9",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave9",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave9",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm10",
+            "frame_id": 10,
+            "publisher": "Slave10",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave10",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave10",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave10",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave10",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave10",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave10",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave10",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm11",
+            "frame_id": 11,
+            "publisher": "Slave11",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave11",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave11",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave11",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave11",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave11",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave11",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave11",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm12",
+            "frame_id": 12,
+            "publisher": "Slave12",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave12",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave12",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave12",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave12",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave12",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave12",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave12",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm13",
+            "frame_id": 13,
+            "publisher": "Slave13",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave13",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave13",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave13",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave13",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave13",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave13",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave13",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm14",
+            "frame_id": 14,
+            "publisher": "Slave14",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave14",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave14",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave14",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave14",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave14",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave14",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave14",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm15",
+            "frame_id": 15,
+            "publisher": "Slave15",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave15",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave15",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave15",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave15",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave15",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave15",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave15",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Slave_Type_Frm16",
+            "frame_id": 17,
+            "publisher": "Slave16",
+            "length": 4,
+            "signals": [
+                {
+                    "signal": "ElmntIdRspSlave16",
+                    "offset": 8
+                },
+                {
+                    "signal": "SwtchStatRspSlave16",
+                    "offset": 16
+                },
+                {
+                    "signal": "ActiveOnKl15Slave16",
+                    "offset": 24
+                },
+                {
+                    "signal": "BkliteTopRspSlave16",
+                    "offset": 25
+                },
+                {
+                    "signal": "BkliteBotRspSlave16",
+                    "offset": 26
+                },
+                {
+                    "signal": "SwitchErrRspSlave16",
+                    "offset": 27
+                },
+                {
+                    "signal": "Comm_ErrRspSlave16",
+                    "offset": 31
+                }
+            ]
+        },
+        {
+            "name": "Master_LED_Ctrl_Frm",
+            "frame_id": 16,
+            "publisher": "CSM",
+            "length": 6,
+            "signals": [
+                {
+                    "signal": "LedControlSlave_id",
+                    "offset": 0
+                },
+                {
+                    "signal": "Func_LED_Ctrl",
+                    "offset": 8
+                },
+                {
+                    "signal": "Backlight_LED1_ctrl",
+                    "offset": 9
+                },
+                {
+                    "signal": "Backlight_LED2_ctrl",
+                    "offset": 10
+                },
+                {
+                    "signal": "KL15_flag",
+                    "offset": 11
+                },
+                {
+                    "signal": "PWM_Func_LED",
+                    "offset": 16
+                },
+                {
+                    "signal": "PWM_Backlight_LED1",
+                    "offset": 24
+                },
+                {
+                    "signal": "PWM_Backlight_LED2",
+                    "offset": 32
+                },
+                {
+                    "signal": "Led_Control_Reserved",
+                    "offset": 40
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm1",
+            "frame_id": 18,
+            "publisher": "Slave1",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave1",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave1",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm2",
+            "frame_id": 19,
+            "publisher": "Slave2",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave2",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave2",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm3",
+            "frame_id": 20,
+            "publisher": "Slave3",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave3",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave3",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm4",
+            "frame_id": 21,
+            "publisher": "Slave4",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave4",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave4",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm5",
+            "frame_id": 22,
+            "publisher": "Slave5",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave5",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave5",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm6",
+            "frame_id": 23,
+            "publisher": "Slave6",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave6",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave6",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm7",
+            "frame_id": 24,
+            "publisher": "Slave7",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave7",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave7",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm8",
+            "frame_id": 25,
+            "publisher": "Slave8",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave8",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave8",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm9",
+            "frame_id": 26,
+            "publisher": "Slave9",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave9",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave9",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm10",
+            "frame_id": 27,
+            "publisher": "Slave10",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave10",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave10",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm11",
+            "frame_id": 28,
+            "publisher": "Slave11",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave11",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave11",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm12",
+            "frame_id": 29,
+            "publisher": "Slave12",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave12",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave12",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm13",
+            "frame_id": 30,
+            "publisher": "Slave13",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave13",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave13",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm14",
+            "frame_id": 31,
+            "publisher": "Slave14",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave14",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave14",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm15",
+            "frame_id": 32,
+            "publisher": "Slave15",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave15",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave15",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Slave_Serial_Frm16",
+            "frame_id": 33,
+            "publisher": "Slave16",
+            "length": 5,
+            "signals": [
+                {
+                    "signal": "SerialNumberSlave16",
+                    "offset": 8
+                },
+                {
+                    "signal": "ElmntIdRspSerialSlave16",
+                    "offset": 0
+                }
+            ]
+        }
+    ],
+    "event_triggered_frames": [
+        {
+            "name": "EvtTrgLINBus1",
+            "collision_resolving_schedule_table": "Collision_resolver",
+            "frame_id": 45,
+            "frames": [
+                "Slave_Type_Frm1",
+                "Slave_Type_Frm2",
+                "Slave_Type_Frm3",
+                "Slave_Type_Frm4",
+                "Slave_Type_Frm5",
+                "Slave_Type_Frm6",
+                "Slave_Type_Frm7",
+                "Slave_Type_Frm8",
+                "Slave_Type_Frm9",
+                "Slave_Type_Frm10",
+                "Slave_Type_Frm11",
+                "Slave_Type_Frm12",
+                "Slave_Type_Frm13",
+                "Slave_Type_Frm14",
+                "Slave_Type_Frm15",
+                "Slave_Type_Frm16"
+            ]
+        }
+    ],
+    "diagnostic_frames": [
+        {
+            "name": "MasterReq",
+            "frame_id": 60,
+            "signals": [
+                {
+                    "signal": "MasterReqB0",
+                    "offset": 0
+                },
+                {
+                    "signal": "MasterReqB1",
+                    "offset": 8
+                },
+                {
+                    "signal": "MasterReqB2",
+                    "offset": 16
+                },
+                {
+                    "signal": "MasterReqB3",
+                    "offset": 24
+                },
+                {
+                    "signal": "MasterReqB4",
+                    "offset": 32
+                },
+                {
+                    "signal": "MasterReqB5",
+                    "offset": 40
+                },
+                {
+                    "signal": "MasterReqB6",
+                    "offset": 48
+                },
+                {
+                    "signal": "MasterReqB7",
+                    "offset": 56
+                }
+            ]
+        },
+        {
+            "name": "SlaveResp",
+            "frame_id": 61,
+            "signals": [
+                {
+                    "signal": "SlaveRespB0",
+                    "offset": 0
+                },
+                {
+                    "signal": "SlaveRespB1",
+                    "offset": 8
+                },
+                {
+                    "signal": "SlaveRespB2",
+                    "offset": 16
+                },
+                {
+                    "signal": "SlaveRespB3",
+                    "offset": 24
+                },
+                {
+                    "signal": "SlaveRespB4",
+                    "offset": 32
+                },
+                {
+                    "signal": "SlaveRespB5",
+                    "offset": 40
+                },
+                {
+                    "signal": "SlaveRespB6",
+                    "offset": 48
+                },
+                {
+                    "signal": "SlaveRespB7",
+                    "offset": 56
+                }
+            ]
+        }
+    ],
+    "node_attributes": [
+        {
+            "name": "Slave1",
+            "lin_protocol": "2.1",
+            "configured_nad": 1,
+            "initial_nad": 1,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 1
+            },
+            "response_error": "Comm_ErrRspSlave1",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm1",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm1"
+            ]
+        },
+        {
+            "name": "Slave2",
+            "lin_protocol": "2.1",
+            "configured_nad": 2,
+            "initial_nad": 2,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 2
+            },
+            "response_error": "Comm_ErrRspSlave2",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm2",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm2"
+            ]
+        },
+        {
+            "name": "Slave3",
+            "lin_protocol": "2.1",
+            "configured_nad": 3,
+            "initial_nad": 3,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 3
+            },
+            "response_error": "Comm_ErrRspSlave3",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm3",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm3"
+            ]
+        },
+        {
+            "name": "Slave4",
+            "lin_protocol": "2.1",
+            "configured_nad": 4,
+            "initial_nad": 4,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 4
+            },
+            "response_error": "Comm_ErrRspSlave4",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm4",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm4"
+            ]
+        },
+        {
+            "name": "Slave5",
+            "lin_protocol": "2.1",
+            "configured_nad": 5,
+            "initial_nad": 5,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 5
+            },
+            "response_error": "Comm_ErrRspSlave5",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm5",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm5"
+            ]
+        },
+        {
+            "name": "Slave6",
+            "lin_protocol": "2.1",
+            "configured_nad": 6,
+            "initial_nad": 6,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 6
+            },
+            "response_error": "Comm_ErrRspSlave6",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm6",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm6"
+            ]
+        },
+        {
+            "name": "Slave7",
+            "lin_protocol": "2.1",
+            "configured_nad": 7,
+            "initial_nad": 7,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 7
+            },
+            "response_error": "Comm_ErrRspSlave7",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm7",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm7"
+            ]
+        },
+        {
+            "name": "Slave8",
+            "lin_protocol": "2.1",
+            "configured_nad": 8,
+            "initial_nad": 8,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 8
+            },
+            "response_error": "Comm_ErrRspSlave8",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm8",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm8"
+            ]
+        },
+        {
+            "name": "Slave9",
+            "lin_protocol": "2.1",
+            "configured_nad": 9,
+            "initial_nad": 9,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 9
+            },
+            "response_error": "Comm_ErrRspSlave9",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm9",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm9"
+            ]
+        },
+        {
+            "name": "Slave10",
+            "lin_protocol": "2.1",
+            "configured_nad": 10,
+            "initial_nad": 10,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 10
+            },
+            "response_error": "Comm_ErrRspSlave10",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm10",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm10"
+            ]
+        },
+        {
+            "name": "Slave11",
+            "lin_protocol": "2.1",
+            "configured_nad": 11,
+            "initial_nad": 11,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 11
+            },
+            "response_error": "Comm_ErrRspSlave11",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm11",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm11"
+            ]
+        },
+        {
+            "name": "Slave12",
+            "lin_protocol": "2.1",
+            "configured_nad": 12,
+            "initial_nad": 12,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 12
+            },
+            "response_error": "Comm_ErrRspSlave12",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm12",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm12"
+            ]
+        },
+        {
+            "name": "Slave13",
+            "lin_protocol": "2.1",
+            "configured_nad": 13,
+            "initial_nad": 13,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 13
+            },
+            "response_error": "Comm_ErrRspSlave13",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm13",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm13"
+            ]
+        },
+        {
+            "name": "Slave14",
+            "lin_protocol": "2.1",
+            "configured_nad": 14,
+            "initial_nad": 14,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 14
+            },
+            "response_error": "Comm_ErrRspSlave14",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm14",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm14"
+            ]
+        },
+        {
+            "name": "Slave15",
+            "lin_protocol": "2.1",
+            "configured_nad": 15,
+            "initial_nad": 15,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 15
+            },
+            "response_error": "Comm_ErrRspSlave15",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm15",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm15"
+            ]
+        },
+        {
+            "name": "Slave16",
+            "lin_protocol": "2.1",
+            "configured_nad": 17,
+            "initial_nad": 17,
+            "product_id": {
+                "supplier_id": 20,
+                "function_id": 43605,
+                "variant": 17
+            },
+            "response_error": "Comm_ErrRspSlave16",
+            "P2_min": 0.05,
+            "ST_min": 0.0,
+            "N_As_timeout": 0.005,
+            "N_Cr_timeout": 0.001,
+            "configurable_frames": [
+                "Master_Type_Frm",
+                "Slave_Type_Frm16",
+                "EvtTrgLINBus1",
+                "Master_LED_Ctrl_Frm",
+                "Slave_Serial_Frm16"
+            ]
+        }
+    ],
+    "schedule_tables": [
+        {
+            "name": "Type_Checking_Schedule",
+            "schedule": [
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm2"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm3"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm4"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm5"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm6"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm7"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm8"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm9"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm10"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm11"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm12"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm13"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm14"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm15"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm16"
+                    },
+                    "delay": 0.01
+                }
+            ]
+        },
+        {
+            "name": "Normal_Schedule",
+            "schedule": [
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm2"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm3"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm4"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm5"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm6"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm7"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm8"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm9"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm10"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm11"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm12"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm13"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm14"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm15"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Serial_Frm16"
+                    },
+                    "delay": 0.01
+                }
+            ]
+        },
+        {
+            "name": "Collision_resolver",
+            "schedule": [
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm2"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm3"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm4"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm5"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm6"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm7"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm8"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm9"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm10"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm11"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm12"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm13"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm14"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm15"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm16"
+                    },
+                    "delay": 0.01
+                }
+            ]
+        },
+        {
+            "name": "Diagnostics",
+            "schedule": [
+                {
+                    "command": {
+                        "type": "master_request"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "slave_response"
+                    },
+                    "delay": 0.01
+                }
+            ]
+        },
+        {
+            "name": "Legacy_Schedule",
+            "schedule": [
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm2"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm3"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm4"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm5"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm6"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm7"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm8"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm9"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm10"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm11"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm12"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm13"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm14"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm15"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "EvtTrgLINBus1"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Master_LED_Ctrl_Frm"
+                    },
+                    "delay": 0.01
+                },
+                {
+                    "command": {
+                        "type": "frame",
+                        "frame": "Slave_Type_Frm16"
+                    },
+                    "delay": 0.01
+                }
+            ]
+        }
+    ]
+}
